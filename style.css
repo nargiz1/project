@@ -1,0 +1,161 @@
+.custom-nav{
+    justify-content: flex-end;
+}
+.b-color-1{
+    background-color: #f4623a;
+}
+.hrs{
+    width: 60px;
+    padding: 3px;
+    opacity: 1;
+    margin: auto;
+}
+.main{
+    padding: 150px 0px;
+    background-image: linear-gradient(rgba(92, 77, 66, 0.8), rgba(92, 77, 66, 0.8)), url("img/header.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: grey;
+}
+.main .m-heading{
+    color: white;
+    font-size: 50px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.main .m-text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.btn-success{
+    border-color: #f4623a;
+    border-radius: 90px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    margin: auto;
+}
+.btn-success:hover{
+    background-color: #f55225;
+    border-color: #f55225;
+}
+.info1{
+    padding: 150px 0px;
+}
+.i-heading{
+    color: white;
+    font-size: 50px;
+    padding: 30px 40px;
+}
+.i-hr{
+    background-color: white;
+}
+.i-text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.i-btn{
+    background-color: white;
+    color: black;
+}
+.i-btn:hover{
+    background-color: white;
+    color: black;
+}
+#services{
+    padding: 150px 0px;
+}
+#services .s-h1{
+    padding-bottom: 20px;
+}
+#services .service{
+    padding: 50px 0px;
+}
+#services .service .s1 i{
+    font-size: 40px;
+    color: #f4623a;
+    padding-bottom: 15px;
+}
+#services .service .s1 h3{
+    font-size: 25px;
+}
+#services .service .s1 p{
+    padding: 5px 20px;
+}
+.pics{
+    padding-top: 50px;
+    overflow: hidden;
+}
+.pics div{
+    padding:0px;
+    position: relative;
+}
+.pics div img{
+    width: 100%;
+}
+.pics .portfolio{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 95px;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+.pics .portfolio .pr-category{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.pics .portfolio .pr-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.pics .portfolio:hover{
+    opacity: .8;
+}
+.download{
+    padding: 90px;
+    background-color: #212529;
+    text-align: center;
+}
+.download h1{
+    color: white;
+    padding-bottom: 60px;
+}
+.download .btn{
+    color: rgb(41, 41, 41);
+    background-color: white;
+    border: none;
+}
+.contact{
+    padding: 90px;
+}
+.contact h1{
+    padding-bottom: 20px;
+}
+.contact p{
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+}
+.contact .inputs div{
+    margin: auto;
+}
+.contact .btn{
+    width: 555px;
+}
+.contact i{
+    font-size: 40px;
+    color: rgb(122, 122, 122);
+}
+.contact .num{
+    color: black;
+}
